@@ -14,5 +14,6 @@ secp256k1'
   s.osx.deployment_target = '12.0'
   s.swift_version = '5.0'
 
-  s.source_files = ['Sources/**/*', 'Submodules/**/*']
+  s.source_files = 'Sources/**/*'
+  s.source_files = 'Submodules/**/*'
 end
